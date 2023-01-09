@@ -38,3 +38,22 @@ unshift()	                Adds new elements to the beginning of an array, and re
 valueOf()	                Returns the primitive value of an array
 
 */
+
+const subject = ["OOPs","Software Engineering"];
+subject.push("DBMS");//add element to the last
+subject.unshift("DSA")
+// console.log(subject);
+
+const removeItems = ["item1","item2",4,6]
+removeItems.pop();//remove item from end
+removeItems.shift();//remove item from starting
+// console.log(removeItems)
+
+const continuousRemove = [2, 4, 5, 1, 7, 5, 2, 1];
+continuousRemove.splice(2,3,"mithu");//removes 3 element from 3rd index and add mithu
+// console.log(continuousRemove);
+
+//slice for triming array
+const continuousRemoves = [2, 4, 5, 1, 7, 5, 2, 1];
+arr1 = continuousRemoves.slice(1,5);
+console.log(arr1);
